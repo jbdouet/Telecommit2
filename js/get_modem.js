@@ -138,7 +138,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_modem_networking.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_modem_networking.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 				var tablet=JSON.parse(JSON.stringify(response));

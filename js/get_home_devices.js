@@ -29,7 +29,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_home_devices.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_home_devices.php", //Relative or absolute path to file.php file
            data:{homefamily: get_url_param("homefamily")},
 
             success: function(response) {

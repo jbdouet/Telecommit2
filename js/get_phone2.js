@@ -91,7 +91,7 @@ $("document").ready(function(){
             crossDomain: true,
 			data:{mobile: get_url_param("mobile")},
 
-            url: "php/get_phone_sl.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_phone_sl.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 				var sls=JSON.parse(JSON.stringify(response));

@@ -29,7 +29,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_line_devices.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_line_devices.php", //Relative or absolute path to file.php file
            data:{line: get_url_param("line")},
 
             success: function(response) {

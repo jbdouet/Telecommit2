@@ -22,7 +22,7 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "php/insert_Contact.php";
+            var url: "http://telecommit.altervista.org/php/insert_Contact.php";
 
             $.ajax({
                 type: "POST",

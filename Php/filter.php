@@ -1,8 +1,8 @@
 <?php
 
 $password= "";
-$username= "root";
-$dbname= "telecom";
+$username= "telecommit";
+$dbname= "my_telecommit";
 $server= "localhost";
     
 $mysqli = new mysqli($server, $username, $password, $dbname);

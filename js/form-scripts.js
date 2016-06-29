@@ -20,7 +20,7 @@ function submitForm(){
     $.ajax({
 		alert("sdsad");
         type: "POST",
-        url: "php/form-process.php",
+        url: "http://telecommit.altervista.org/php//form-process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){

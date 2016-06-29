@@ -55,7 +55,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_promoted_sl.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_promoted_sl.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 				

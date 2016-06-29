@@ -41,7 +41,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-			 url: "php/get_tablet_devices.php",
+			 url: "http://telecommit.altervista.org/php/get_tablet_devices.php",
            // url: "http://telecommit.altervista.org/Telecommit/php/get_tablet_devices.php", //Relative or absolute path to file.php file
             
             success: function(response) {
