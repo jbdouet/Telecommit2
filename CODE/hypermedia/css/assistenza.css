@@ -1,0 +1,218 @@
+body{
+    margin:0px;  
+}
+
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+
+/*Serve a definire il colore del bottone del menù*/
+.dropdown-toggle {
+    background-color: #0066ff;
+    border-radius: 0; 
+    color:white; 
+    width: 170px;
+    border: 2px solid black; 
+    text-align: center;
+}
+
+/*Serve a definire il colore del bottone del menù quando schiacciato*/
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background:#d9d9d9 !important; 
+    color:white !important;
+}
+
+
+.dropdown{
+     display:inline-block;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    background-color: gainsboro;
+}
+
+/*serve per colorare di bianco le scritte dentro i bottoni del top menu*/
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-header{
+    margin-top:15px; 
+    margin-right:7%;
+}
+
+.nav .navbar-nav{
+    margin:15px; 
+    display: inline-block; 
+    min-width:700px;
+}
+
+/*per mettere i bottoni al centro*/
+.navbar-nav{
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+/*quando la finestra è larga 1200px, cioè quando compare il menu in alto a destra, tolgo i margini impostati normalmente per mettere i bottoni
+centrati nella barra in alto*/
+@media (max-width: 1200px) {
+  .navbar-nav {
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+}
+
+
+#logo_tim{
+    margin-left:10px;
+}
+
+/*per limitare la dimensione del menu quando faccio la resize*/
+#bs-example-navbar-collapse-1{
+    max-height: 300px;
+}
+
+#carrello_help{
+    display: inline-block; 
+    float: right; 
+    margin-top:15px;
+}
+
+@media (max-width: 1200px) {
+  #carrello_help {
+    display: inline-block;
+    float: left; 
+    margin-top: 15px;
+    margin-left: 5px;
+    }
+}
+
+
+#table_carrello_help{
+     border-spacing:20px; 
+    text-align:center;
+}
+
+#carrello_image{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#icon_info{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#aiuto_link{
+    float: center;
+}
+
+#nuovo_marchio_TIM{
+    margin-top: 30px; 
+    height:150px; 
+    width:270px;
+}
+
+#sectionsnavbar{
+    text-align:center; 
+    display:inline-block;
+}
+#footer_block{
+    width:100%; 
+    min-width: 800px; 
+    margin:0px 0px; 
+    border: 2px solid black;
+    
+}
+
+.footer-above{
+     margin: 0px 0px;
+}
+
+.footer-above-title{
+        color: cornflowerblue;
+}
+
+.footer-below{
+    background-color:blue; 
+    height:33px; 
+    margin: 0px 0px;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  outline: 1px solid slategrey;
+}
+
+.glyphicon-circle-arrow-right{
+    font-size: 20px;
+    margin-right: 10px;
+    color:black;
+}
+.container{
+     margin-bottom:10px;
+}
+#tim_logo_footer{
+    padding-top:10px;
+}
+
+.seguici_su_image{
+    padding-right:5px;
+}
+.footer-below-first-element{
+     float:left; 
+    margin-right:20px; 
+    margin-left:10px;
+}
+
+.footer-below-element{
+     float:left; 
+    margin-right:20px;
+}
+
+.footer-below-rightmost-element{
+    float:right;
+}
+
+.footer-below-title{
+    color:white;
+}
+.footer-below-rightmost-title{
+    margin-right:10px;
+    color:white;
+}
+
+#footer-block{
+    background-color:blue; 
+    height:33px; 
+    margin: 0 0; 
+    min-width: 800px;
+    display: block;
+}
+
+@media (max-width: 800px) {
+  #footer-block {
+    display: none;
+  }
+}
+
+.elenco-servizi{
+    min-width: 380px;
+}

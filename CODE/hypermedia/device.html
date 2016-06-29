@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>TIM - Device</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="css/prodotto_style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: gainsboro">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="margin-top:15px; margin-right:7%;">
+                <!--serve per creare il menu in alto a destra quando riduciamo la pagina. Dobbiamo cambiare la misura a cui il menu collassa-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img src="assets/TIM.PNG" alt="TIM Logo" style="margin-left:10px"/></a>
+                <br>
+                <a href="#">Chi siamo</a>
+                |
+                <span>Il Gruppo</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" style="margin:15px; text-align:center">
+                    <li>
+                        <a href="#" class="btn btn-primary" role="button" style="border-radius: 0; color:white; width: 170px;
+border: 2px solid black">PROMOZIONI</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary" role="button" style="border-radius: 0; color:white; width: 170px;
+border: 2px solid black">DEVICE</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary" role="button" style="border-radius: 0; color:white; width: 170px;
+border: 2px solid black">SMART LIFE</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary" role="button" style="border-radius: 0; color:white; width: 170px;
+border: 2px solid black">ASSISTENZA</a>
+                    </li>
+                </ul>
+                
+                <div style="display: inline-block; float: right; margin-top:15px;">
+                <table style="border-spacing:20px; text-align:center;">
+                    <tr>
+                        <td><a href="#"><img src="assets/icon-cart.png" alt="Carrello" width=auto height=auto border="0"/></a>
+                            <br>
+                            <a href="#">Carrello</a>
+                        </td>
+                        <td><a href="#"><img src="assets/icon-info.png" alt="Request Form" width=52px height=52px border="0"/></a>
+                            <br>
+                            <a href="#" style="float: center;">Aiuto</a>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div>
+        <br>
+        <ol class="breadcrumb" style="margin-bottom: 1px;">
+            <li class="active">Device</li>
+            <li class="active">Smartphone e Telefoni</li>
+        </ol>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"> </div>
+            <div class="col-lg-8">
+                <!-- Title -->
+                <h1 style="text-align:center" id="product-title"><font color='cornflowerblue'> </font></h1>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Left menu Column -->
+            <div class="col-md-4">
+
+                <!-- Smart Life services well -->
+                <div class="well">
+                    <h4>Servizi SL</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>I servizi di "<font color="red">Smart Life</font>" associati a questo device
+                                sono elencati qui sotto.</p>
+                            <ul class="list-unstyled" id="sl_list">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Assistance service well -->
+                <div class="well">
+                    <h4>Supporto</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Scopri i "<font color="red">Servizi di Assistenza</font>" associati a questo device.</p>
+                            <a href="#" class='scopri' role='button'>VAI A Assistenza</a>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+            </div>
+            <!-- Device content Column -->
+            <div class="col-lg-8">
+
+                <!-- Device navbar -->
+                <nav class="navbar navbar-light bg-faded" id ="devicenavbar" style='text-align:center; display:inline-block'>
+                    <ul class="nav navbar-nav navbar-right" style='display: inline-block'>
+                        <li class='nav-item active'>
+                            <a class='nav-link' href='#' id='presentation_btn'>Presentazione<span class='sr-only'>(current)</span></a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#' id='tc_btn'>Caratteristiche Tecniche</a>
+                        </li>   
+                    </ul>   
+                </nav>
+
+                <!-- Page Content -->
+                <table id="page_content" align='center' style='table-layout:fixed; width: 95%'>
+                    
+                </table>  
+
+                <hr>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+    </div>
+    
+    <!--        min-width: 800px fa comparire la scrollbar orizzontale quando la finestra arriva alla dimensione di 800px-->
+        <!-- Footer -->
+        <footer style="background-color:blue; height:33px; margin: 0px 0px; min-width: 800px">
+            <div class="row" style="width:100%; margin-left:0px">
+            <ul class="list-unstyled" style="width:100%;">
+                <li style="float:left; margin-right:20px; margin-left:10px">
+                    <h6><font color="white"><b>Privacy</b></font></h6>
+                </li>
+                <li style="float:left; margin-right:20px">
+                    <h6><font color="white"><b>Note legali</b></font></h6>
+                </li>
+                <li style="float:left; margin-right:20px">
+                    <h6><font color="white"><b>WebSite Info</b></font></h6>
+                </li>
+                <li style="float:left; margin-right:20px">
+                    <h6><font color="white"><b>Contatti</b></font></h6>
+                </li>
+                <li style="float:left; margin-right:20px">
+                    <h6><font color="white"><b>Per i consumatori</b></font></h6>
+                </li>
+                <li style="float:left; margin-right:20px">
+                    <h6><font color="white"><b>Lavora con noi</b></font></h6>
+                </li>
+                <li class="pull-right">
+                    <h6 style="margin-right:10px;"><font color="white"><b>Telecom Italia 2012 - P.IVA 00488410010</b></font></h6>
+                </li>
+            </ul>
+            </div>
+            <!-- /.row -->
+        </footer>    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prodotto.js"></script>
+
+</body>
+
+</html>

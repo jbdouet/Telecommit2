@@ -1,0 +1,306 @@
+/*file css per le pagine Innovazione, Progetti e Testimonial della sezione "Chi Siamo"*/
+
+body{
+    margin:0px;  
+}
+
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+
+/*Serve a definire il colore del bottone del menù*/
+.dropdown-toggle {
+    background-color: #0066ff;
+    border-radius: 0; 
+    color:white; 
+    width: 170px;
+    border: 2px solid black; 
+    text-align: center;
+}
+
+/*Serve a definire il colore del bottone del menù quando schiacciato*/
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background:#d9d9d9 !important; 
+    color:white !important;
+}
+
+
+.dropdown{
+     display:inline-block;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    background-color: gainsboro;
+}
+
+/*serve per colorare di bianco le scritte dentro i bottoni del top menu*/
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-header{
+    margin-top:15px; 
+    margin-right:7%;
+}
+
+.nav .navbar-nav{
+    margin:15px; 
+    display: inline-block; 
+    min-width: 1200px;
+}
+
+#logo_tim{
+    margin-left:10px;
+}
+
+/*per limitare la dimensione del menu quando faccio la resize*/
+#bs-example-navbar-collapse-1{
+    max-height: 300px;
+    min-width: 1200px;
+}
+
+#carrello_help{
+    display: inline-block; 
+    float: right; 
+    margin-top:15px;
+}
+
+@media (max-width: 1200px) {
+  #carrello_help {
+    display: inline-block;
+    float: left; 
+    margin-top: 15px;
+    margin-left: 5px;
+    }
+}
+
+
+#table_carrello_help{
+     border-spacing:20px; 
+    text-align:center;
+}
+
+#carrello_image{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#icon_info{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#aiuto_link{
+    float: center;
+}
+
+#nuovo_marchio_TIM{
+    margin-top: 30px; 
+    height:150px; 
+    width:270px;
+}
+
+#myCarousel{
+    border:2px solid black; 
+    min-height: 400px; 
+    margin-top: 50 px;
+    /*aggiungo min-width in modo che a questa dimensione smetta di rimpicciolire e interviene la scroll orizzontale. Stessa dimensione del footer*/
+    min-width: 800px;
+}
+
+#sectionsnavbar{
+    text-align:center; 
+    display:inline-block;
+}
+
+#link_rapidi{
+     color:cornflowerblue; 
+    font-size:40px;
+}
+
+#link_rapidi_menu{
+     margin-bottom: 50px;
+}
+
+#footer_block{
+    width:100%; 
+    min-width: 800px; 
+    margin:0px 0px; 
+    border: 2px solid black;
+    
+}
+
+.footer-above{
+     margin: 0px 0px;
+}
+
+.footer-above-title{
+        color: cornflowerblue;
+}
+
+.footer-below{
+    background-color:blue; 
+    height:33px; 
+    margin: 0px 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  outline: 1px solid slategrey;
+}
+
+.glyphicon-circle-arrow-right{
+    font-size: 20px;
+    margin-right: 10px;
+    color:crimson;
+}
+
+.scopri {
+    width: 150px;
+    background-color: #0066ff;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+}
+
+.scopri:hover {
+  background-color: #337ab7;
+  text-decoration: none;
+}
+
+.container{
+     margin-bottom:10px;
+}
+
+.col-xs-3 cont-img{
+    display: inline-block;
+}
+
+#tim_logo_footer{
+    padding-top:10px;
+}
+
+.seguici_su_image{
+    padding-right:5px;
+}
+
+.list-unstyled{
+     width:100%;
+}
+
+.footer-below-first-element{
+     float:left; 
+    margin-right:20px; 
+    margin-left:10px;
+}
+
+.footer-below-element{
+     float:left; 
+    margin-right:20px;
+}
+
+.footer-below-rightmost-element{
+    float:right;
+}
+
+.footer-below-title{
+    color:white;
+}
+.footer-below-rightmost-title{
+    margin-right:10px;
+    color:white;
+}
+
+.row {
+  margin-left: 0px;
+  width:100%;
+}
+
+/*aggiunto un id al blocco di bottoni della navbar in modo da agire solo su di lui. Agendo sulla classe navbar altrimenti, andavo ad agire anche su ciò che sta nella sezione carousel*/
+/*per mettere i bottoni al centro*/
+#top-menu{
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+/*quando la finestra è larga 1200px, cioè quando compare il menu in alto a destra, tolgo i margini impostati normalmente per mettere i bottoni
+centrati nella barra in alto*/
+@media (max-width: 1200px) {
+  #top-menu {
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+}
+
+#navbar-top{
+    min-width: 1201px;
+}
+
+/*per far sì che la navbar della gallery rimanga allineata alla resize*/
+ul#gallery-navbar li{
+    display: inline-block;
+}
+
+/*è l'id del container principale del contenuto della pagina. Con questa min-width permette di resizere nella maniera giusta*/
+#content{
+    min-width: 850px;
+}
+
+#left_menu{
+    position: fixed;
+    width:200px; 
+    margin-top:200px;
+}
+
+/*ho dovuto mettere il margin top con un valore specifico di pixel per accentrarlo un po'*/
+@media (max-width: 850px) {
+  #left_menu {
+    position: static;
+    width: 200px; 
+    margin-top: 350px;
+  }
+}
+
+#page-content{
+    padding-bottom:100px;
+    padding-left: 15px;
+}
+
+@media (max-width: 1200px) {
+  #page-content {
+    padding-bottom:100px;
+    padding-left: 50px;
+  }
+}
+
+/*per la pagina testimonial in chi siamo*/
+@media (max-width: 1200px) {
+  .cit {
+    padding-left: 10px;
+  }
+}

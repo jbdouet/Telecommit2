@@ -1,0 +1,21 @@
+#carrello_image{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#icon_info{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#aiuto_link{
+    float: center;
+}
+
+#nuovo_marchio_TIM{
+    margin-top: 30px; 
+    height:150px; 
+    width:270px;
+}

@@ -1,0 +1,71 @@
+body {
+    padding-top: 70px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.col-md-4 {
+	width: 25%;
+}
+
+.col-lg-6 {
+	width:95%;
+}
+
+.col-lg-8 {
+	width:75%;
+}
+
+.list-unstyled {
+	word-wrap: break-word;
+}
+
+.scopri {
+    width: 80%;
+    background-color: #0066ff;
+    border: 2px solid black;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+}
+
+.tc-row-table, .tc-column-table {
+    border: 2px solid black;
+    }
+    
+.odd {
+    background-color:#e6e6e6
+}
+
+.scopri:hover {
+  background-color: #337ab7;
+  text-decoration: none;
+}
+
+.acquista {
+    width: 60%;
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+}
+
+.acquista:hover {
+  background-color: #b30000;
+  text-decoration: none;
+}

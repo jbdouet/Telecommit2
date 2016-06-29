@@ -1,0 +1,117 @@
+#carrello_image{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#icon_info{
+    width:52px;
+    height:52px;
+    border:"0";
+}
+
+#aiuto_link{
+    float: center;
+}
+
+#nuovo_marchio_TIM{
+    margin-top: 30px; 
+    height:150px; 
+    width:270px;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+h1 {
+    font-size:50px;
+    font-family: "Garamond";
+}
+
+h2 {
+    font-size:25px;
+    font-family: "Garamond";
+}
+
+h3 {
+    font-size:20px;
+    font-family: "Garamond";
+}
+p {
+    font-size:15px;
+    font-family: "Garamond";
+}
+
+.navbar-center {
+    float: none;
+    margin-right: -1100px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%; 
+    margin: auto;
+}
+        
+.carousel-indicators {
+    bottom:-50px;
+}
+
+.carousel-indicators li {
+    border-color:#999;
+    background-color:#ccc;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+}
+
+#sectionsnavbar > ul {
+    display: table-row;
+}
+ 
+#sectionsnavbar > ul > li {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+.scopri {
+    width: 150px;
+    background-color: #0066ff;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+}
+
+.scopri:hover {
+  background-color: #337ab7;
+  text-decoration: none;
+}
+
+#piepagina{
+    width:100%;
+    height:30px;
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.piepaginatable{
+    border-spacing: 5px 0px;
+    height: inherit;
+}

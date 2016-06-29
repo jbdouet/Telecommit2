@@ -1,0 +1,51 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+h1 {
+    font-size:50px;
+    font-family: "Garamond";
+}
+
+h2 {
+    font-size:25px;
+    font-family: "Garamond";
+}
+
+h3 {
+    font-size:20px;
+    font-family: "Garamond";
+}
+p {
+    font-size:15px;
+    font-family: "Garamond";
+}
+
+#piepagina{
+    width:100%;
+    height:30px;
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.piepaginatable{
+    border-spacing: 5px 0px;
+    height: inherit;
+}
