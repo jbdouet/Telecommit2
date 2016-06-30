@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) { //verify connection
 else {
 	
     $tv = $_POST["line"];
-$query="SELECT * FROM DEVICE,HAS_A WHERE DEVICE.ID=HAS_A.DEVICE_ID AND HAS_A.A_ID='".$tv."'";
+$query="select * from device,has_a where device.id=has_a.device_id and has_a.a_id='".$tv."'";
 //	$query = "SELECT * FROM device,has_sl where device.id=has_sl.device_id and has_sl.sl_id='"+$tv+"'";
 
 	
