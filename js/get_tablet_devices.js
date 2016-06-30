@@ -72,7 +72,7 @@ function get_url_param(param) {
 function insert_into_row(tablet, index) {
     var row="<div class='col-md-3 portfolio-item'>";
     row+="<table align='center' style='table-layout:fixed; width:240px'>";
-    row+="<tr><td align='center'><img class='img-responsive' src='" +"images/"+tablet[index].id+".jpg"+ "' style='height: 250px'></td></tr>";
+    row+="<tr><td align='center'><img class='img-responsive' src='" +"Images/"+tablet[index].id+".jpg"+ "' style='height: 250px'></td></tr>";
     row+="<tr><td style='overflow:hidden' align='center'><h3>" +tablet[index].name+ "</h3></td></tr>";
     row+="<tr>";
     
