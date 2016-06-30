@@ -175,7 +175,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_phone_sl2.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_phone_sl2.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 					
@@ -223,7 +223,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "php/get_phone_a.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_phone_a.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 					
