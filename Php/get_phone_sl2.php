@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) { //verify connection
 else {
 	
     
-$query="SELECT SL_SERVICE.NAME,SL_SERVICE.CATEGORY,SL_SERVICE.DESCRIPTION,SL_SERVICE.ID,SL_SERVICE.ACTIVATION,HAS_SL.DEVICE_ID FROM SL_SERVICE,HAS_SL WHERE SL_SERVICE.ID=HAS_SL.SL_ID";
+$query="select sl_service.name,sl_service.category,sl_service.description,sl_service.id,sl_service.activation,has_sl.device_id from sl_service,has_sl where sl_service.id=has_sl.sl_id";
 //	$query = "SELECT * FROM device,has_sl where device.id=has_sl.device_id and has_sl.sl_id='"+$tv+"'";
 
 	

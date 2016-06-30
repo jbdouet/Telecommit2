@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) { //verify connection
 else {
 	
     $tv = $_POST["mobile"];
-$query="SELECT * FROM SL_SERVICE,HAS_SL WHERE SL_SERVICE.ID=HAS_SL.SL_ID AND HAS_SL.DEVICE_ID='".$tv."'";
+$query="select * from sl_service,has_sl where sl_service.id=has_sl.sl_id and has_sl.device_id='".$tv."'";
 //	$query = "SELECT * FROM device,has_sl where device.id=has_sl.device_id and has_sl.sl_id='"+$tv+"'";
 
 	
