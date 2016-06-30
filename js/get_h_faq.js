@@ -5,7 +5,7 @@ $("document").ready(function(){
         method: "POST",
             dataType: "json", //type of data
             crossDomain: true,
-            url: "http://telecommit.altervista.org/php/get_tv_faq.php", //Relative or absolute path to file.php file
+            url: "http://telecommit.altervista.org/php/get_health_faq.php", //Relative or absolute path to file.php file
             
             success: function(response) {
 				var param=get_url_param("health");
