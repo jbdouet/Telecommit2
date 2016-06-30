@@ -32,7 +32,7 @@ function view_format(tablet) {
     
     row+="<tr><td style='overflow:hidden' align='center'><h3>" +tablet.description+ "</h3></td></tr>";
    
-    row+="<tr><td align='center'><a href='get_mon_devices.html?monitoring=" +tablet.id+ "' class='animation animated-item-3' role='button'>COMPATIBLE DEVICES</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_mon_devices.html?monitoring=" +tablet.id+ "' class='animation animated-item-3' role='button'>COMPATIBLE DEVICES</a></td></tr>";
 
    
     row+="</tr>";

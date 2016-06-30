@@ -12,7 +12,7 @@ function insert_mobile(phone) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +phone.description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='phone_device.html?mobile=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/phone_device.html?mobile=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -27,7 +27,7 @@ function insert_modem(phone) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +phone.description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='modem_device.html?modem=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/modem_device.html?modem=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -43,7 +43,7 @@ function insert_tablet(phone) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +phone.description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='tablet_device.html?tablet=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/ablet_device.html?tablet=" +phone.id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;

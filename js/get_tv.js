@@ -51,7 +51,7 @@ function view_format(tablet) {
 	// row+="<tr><td align='center'><input type='submit' value='FAQ' id='" +tablet.id+ "' class='scopri' role='button'></input></td></tr>";
 
    
-    row+="<tr><td align='center'><a href='get_tv_faq.html?tv=" +tablet.id+ "' class='animation animated-item-3' role='button'>FAQ</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_tv_faq.html?tv=" +tablet.id+ "' class='animation animated-item-3' role='button'>FAQ</a></td></tr>";
    
     row+="</tr>";
     

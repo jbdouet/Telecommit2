@@ -59,7 +59,7 @@ function insert_into_row(phone, index) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +phone[index].description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='phone_device.html?mobile=" +phone[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/phone_device.html?mobile=" +phone[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;

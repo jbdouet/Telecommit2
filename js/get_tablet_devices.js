@@ -80,7 +80,7 @@ function insert_into_row(tablet, index) {
     
         row+="<td style='overflow:hidden' align='center'><h3><font color='orange'>" +tablet[index].price+ "</font></h3></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='tablet_device.html?tablet=" +tablet[index].id+ "' class='scopri' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/tablet_device.html?tablet=" +tablet[index].id+ "' class='scopri' role='button'>VIEW</a></td></tr>";
         //row+="<tr><td align='center'><input type='submit' value='view' id='" +tablet[index].id+ "' class='scopri' role='button'></input></td></tr>";
 
 	var tmp="#"+tablet[index].id;

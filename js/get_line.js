@@ -31,7 +31,7 @@ function view_format(tablet) {
     row+="<tr>";
     
     row+="<tr><td style='overflow:hidden' align='center'><h3>" +tablet.description+ "</h3></td></tr>";
-    row+="<tr><td align='center'><a href='get_line_devices.html?line=" +tablet.id+ "' class='animation animated-item-3' role='button'>SUPPORTED DEVICES</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_line_devices.html?line=" +tablet.id+ "' class='animation animated-item-3' role='button'>SUPPORTED DEVICES</a></td></tr>";
 
     row+="</tr>";
     

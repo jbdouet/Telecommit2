@@ -53,7 +53,7 @@ function insert_mon(mon) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +mon.DESCRIPTION+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_mon.html?monitor=" +mon.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_mon.html?monitor=" +mon.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -69,7 +69,7 @@ function insert_line(line) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +line.DESCRIPTION+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_line.html?line=" +line.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_line.html?line=" +line.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -92,7 +92,7 @@ function insert_tv(tv) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +tv.DESCRIPTION+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_tv.html?tv=" +tv.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_tv.html?tv=" +tv.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -108,7 +108,7 @@ function insert_home(homefamily) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +homefamily.DESCRIPTION+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_home.html?homefamily=" +homefamily.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_home.html?homefamily=" +homefamily.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
@@ -124,7 +124,7 @@ function insert_health(health) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +health.DESCRIPTION+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_health.html?health=" +health.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_health.html?health=" +health.ID+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;

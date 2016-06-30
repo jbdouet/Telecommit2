@@ -64,11 +64,11 @@ function insert_into_row(modem, index) {
     row+="</tr>";
 	
 	if(modem[index].category=="modem")
-    row+="<tr><td align='center'><a href='modem_device.html?modem=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/modem_device.html?modem=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     if(modem[index].category=="tablet")
-    row+="<tr><td align='center'><a href='tablet_device.html?tablet=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/tablet_device.html?tablet=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
  if(modem[index].category=="mobile")
-    row+="<tr><td align='center'><a href='phone_device.html?mobile=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/phone_device.html?mobile=" +modem[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
 	
 	row+="</table></div>";
 

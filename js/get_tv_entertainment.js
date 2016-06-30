@@ -58,7 +58,7 @@ function insert_into_row(tv, index) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +tv[index].description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_tv.html?tv=" +tv[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_tv.html?tv=" +tv[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;

@@ -58,7 +58,7 @@ function insert_into_row(health, index) {
     
     row+="<td style='overflow:hidden' align='center'><h5>" +health[index].description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_health.html?health=" +health[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
+    row+="<tr><td align='center'><a href='http://telecommit.altervista.org/get_health.html?health=" +health[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;
