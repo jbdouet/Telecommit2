@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) { //verify connection
 else {
 	
 
-$query = " SELECT * FROM FAQ";
+$query = " select * from faq";
 
 
     //query execution
