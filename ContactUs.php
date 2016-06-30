@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html"><img src="Images/logo.jpg" width="100" height="70" alt=""/></a></div>
+				<a class="navbar-brand" href="index.html"><img src="Images/logo2.jpg" width="100" height="70" alt=""/></a></div>
 			<div class="collapse navbar-collapse navbar-right">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
@@ -54,7 +54,10 @@
 							<li><a href="SmartLife.html">Smart Life</a></li>
 						</ul>
 					</li>
-					<li><a href="contact-us.html">Contact</a></li>
+					<li><a href="ContactUs.php">Contact</a></li>
+					<li><a href="Thegroup.html">The group</a></li>
+				    <li><a href="WhoWeAre.html">Who we are</a></li>
+					
 				</ul>
 			</div>
 		</div>
@@ -143,6 +146,8 @@
 	
 </div>
 <!-- /.container--> 
+
+
 
 <script src="css/bootstrap.3.3.6.min.css"></script> 
  
