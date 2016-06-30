@@ -191,14 +191,14 @@ $("document").ready(function(){
 	
 				for (var i=0; i<sls.length; i++) {
 					
-					if(sls[i].DEVICE_ID==tablet_id){
+					if(sls[i].device_id==tablet_id){
 				
-					if(sls[i].CATEGORY=="tv")
+					if(sls[i].category=="tv")
 						row+=insert_tv(sls[i]);
 					
-					if(sls[i].CATEGORY=="homefamily")
+					if(sls[i].category=="homefamily")
 						row+=insert_home(sls[i]);
-					if(sls[i].CATEGORY=="health")						
+					if(sls[i].category=="health")						
 						row+=insert_health(sls[i]);
 					}
 			}
@@ -239,12 +239,12 @@ $("document").ready(function(){
 	
 				for (var i=0; i<sls.length; i++) {
 					
-					if(sls[i].DEVICE_ID==tablet_id){
+					if(sls[i].device_id==tablet_id){
 				
-					if(sls[i].CATEGORY=="line")
+					if(sls[i].category=="line")
 						row+=insert_line(sls[i]);
 					
-					if(sls[i].CATEGORY=="monitoring")
+					if(sls[i].category=="monitoring")
 						row+=insert_mon(sls[i]);
 					
 					}
